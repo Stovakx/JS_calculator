@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(to right, #480ca8, #bbdefb );
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.container_calculator {
+    max-width: 25rem;
+    width: 25rem;
+    justify-content: center;
+    align-content: center;
+}
+.container_calculator > .row {
+    width: 25rem;
+}
+.container_calculator > .row > .col > button {
+    width: 6.25rem;
+    font-size: 2rem;
+    height: 6.25rem;
+    outline: none;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, .75);
+}
+.col {
+    padding: 0;
+}
+.container_calculator > .row > .span-two > button {
+    padding: 0;
+    width: 12.5rem;
+}
+
+.container_calculator > .row > .col > button:hover {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.output {
+    min-height: 6.25rem;
+    background-color: rgba(0, 0, 0, .75);
+}
+.output > .prevnumber {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
+}
+.output > .currentnumber {
+    color: white;
+    font-size: 2.5rem;
+    padding-right: 0.5rem;
+}
+.footer {
+    width: 100vw;
+  }
+.footer_container {
+    width: 100vw;
+  }
+.footer_logo {
+    height: 3rem;
+    width: 10rem;
+  }
